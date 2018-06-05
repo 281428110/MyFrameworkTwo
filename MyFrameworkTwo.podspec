@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "MyFrameworkTwo"
   s.version      = "0.0.1"
-  s.summary      = "A short description of MyFrameworkTwo."
+  s.summary      = "就是测试一下"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
