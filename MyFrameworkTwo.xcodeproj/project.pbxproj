@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		844223B020C624D10009F8ED /* TwoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 844223AE20C624D10009F8ED /* TwoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		844223B120C624D10009F8ED /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844223AF20C624D10009F8ED /* TwoViewController.m */; };
+		844223B620C628170009F8ED /* OtherViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 844223B420C628170009F8ED /* OtherViewController.h */; };
+		844223B720C628170009F8ED /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844223B520C628170009F8ED /* OtherViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		844223A720C624B90009F8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		844223AE20C624D10009F8ED /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
 		844223AF20C624D10009F8ED /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		844223B420C628170009F8ED /* OtherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		844223B520C628170009F8ED /* OtherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 				844223A720C624B90009F8ED /* Info.plist */,
 				844223AE20C624D10009F8ED /* TwoViewController.h */,
 				844223AF20C624D10009F8ED /* TwoViewController.m */,
+				844223B420C628170009F8ED /* OtherViewController.h */,
+				844223B520C628170009F8ED /* OtherViewController.m */,
 			);
 			path = MyFrameworkTwo;
 			sourceTree = "<group>";
@@ -62,6 +68,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844223B620C628170009F8ED /* OtherViewController.h in Headers */,
 				844223B020C624D10009F8ED /* TwoViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				844223B120C624D10009F8ED /* TwoViewController.m in Sources */,
+				844223B720C628170009F8ED /* OtherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
